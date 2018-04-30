@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Contaminacion Ambiental en mi comunidad</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"></script> -->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/paso4.jpg','imagenes/caminando.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Contaminacion Ambiental </h1>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class ="ui-first-child ui-last-child">
+<a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Definicion </h2>
+<p>¿Que es la contaminacion?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tipos de contaminacion  </h2>
+<p>Se muestran los tipos de contaminacion que existen</p>
+</a>
+</li>
+<li class="ui-first-child ui-first-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Consecuencias</h2>
+<p>Demostracion de las consecuencias de la contaminacion </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Reciclaje</h2>
+<p>Regla de las tres R</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Medidas para combatirla</h2>
+<P>5 medidas que puedes emplear para combatir la contaminacion en tu comunidad</P>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/arbol.ico" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion Cuatro</h4>
+<h4>Ruiz Mendez Yahir</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="page1" data-add-back-btn="true"  data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>Definicion </h1>
+</div>
+<div data-role="content" align="center">
+<div >
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Contaminacion</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/contaminacion-por-petroleo.jpg">
+</div>
+</div>
+</div>
+<h2>¿Que es la contaminacion?</h2>
+<p>Se llama contaminación a la transmisión y difusión de humos o gases tóxicos a medios como la atmósfera y el agua, como también a la presencia de polvos y gérmenes microbianos provenientes de los desechos de la actividad del ser humano.
+En la actualidad, el resultado del desarrollo y progreso tecnológico ha originado diversas formas de contaminación, las cuales alteran el equilibrio físico y mental del ser humano. Debido a esto, la actual contaminación se convierte en un problema más crítico que en épocas pasadas.</p>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/arbol.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Cuatro RMY</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<H1>Tipos de contaminacion</H1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Se muestran los tipos de contaminacion que existen</h2>
+<h3>1. Contaminación atmosférica</h3>
+<p>La más conocida, es el tipo de contaminación que surge de la liberación de partículas de sustancias químicas a la atmósfera. También conocida como polución, es el tipo de contaminación que afecta a través del aire. Uno de los contaminantes más conocidos en este sentido son el CO2, el metano y el humo proveniente de la combustión.</p>
+
+<h3>2. Contaminación hídrica</h3>
+<p>Se trata del efecto de la emisión y liberación en las aguas de sustancias contaminantes. Se dificulta o altera la vida y el uso normativo, haciéndola no potable. Habitualmente esta contaminación es de origen industrial. Incluye la contaminación marítima, la cual haría referencia a la contaminación de los mares y océanos por la misma causa.</p>
+
+<h3>3. Contaminación del suelo y del subsuelo</h3>
+<p>Provocada por la filtración de sustancias en el suelo, genera alteraciones físicas y químicas en éste que hacen que por ejemplo resulte inhabitable, se contaminen las aguas subterráneas o se imposibilite el crecimiento de vida en el área.</p>
+
+<h3>4. Contaminación radiactiva</h3>
+<p>Se trata de uno de los tipos de contaminación más peligrosos y agresivos con la vida. Es producida por la liberación de material radiactivo y tiene efecto en cualquier superficie. Suele derivarse de la acción humana, como el vertido de residuos o desastres en plantas de energía nuclear como el de Chernobyl.</p>
+
+<h3>5. Contaminación térmica</h3>
+<p>Uno de los tipos de contaminación menos conocidos, es generado por el cambio de temperatura en el entorno o en diferentes medios debido a la actividad humana.</p>
+
+<h3>6. Contaminación visual</h3>
+<p>A pesar de que en principio el concepto pueda asemejarse al de la contaminación lumínica, en este caso se hace referencia a la alteración del medio en base a estímulos visuales que no tienen que ver con la luminosidad. Por ejemplo, se refiere a los cambios visuales que se producen en la naturaleza debido a la actividad humana.</p>
+
+<h3>7. Contaminación lumínica</h3>
+<p>Se trata de uno de los tipos de contaminación en la que el elemento contaminante es visual. la contaminación lumínica el elemento contaminante en sí es la emisión de luz fuera de lo que sería natural, provocando problemas como la pérdida de orientación o los cambios en los biorritmos tanto de seres humanos como de otros animales.</p>
+
+<h3>8. Contaminación acústica</h3>
+<p>Denominamos contaminación acústica a la emisión de sonido en una proporción, frecuencia, tono, volumen y ritmo excesivos que provocan una alteración en el medio o en los seres que lo habitan. Este tipo de contaminación es el que viven, por ejemplo, aquellas personas que viven en barrios muy turísticos en los que hay multitud de discotecas y establecimientos con música.</p>
+
+<h3>9. Contaminación electromagnética</h3>
+<p>Aunque tal ves no es tan perceptible de manera directa por los seres humanos, se refiere a la contaminación derivada del uso de elementos eléctricos o que generen fenómenos electromagnéticos. Pueden generar desorientación y posibles daños en diferentes animales, y los efectos sobre los seres humanos aún son discutidos (vinculándose en ocasiones al cáncer, trastornos de la erección o algunos problemas mentales y físicos).</p>
+
+<h3>10. Contaminación alimentaria</h3>
+<p>Se refiere a la presencia de diferentes sustancias en los alimentos que provocan efectos de diferente envergadura en quienes lo consumen. Por ejemplo, la contaminación del pescado por el mercurio proveniente de la contaminación hídrica o la provocada por la venta de alimentos en mal estado o infectados de alguna enfermedad. </p>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/acustica.jpg" alt="Acustica" title="Acustica" id="wows1_0"/></li>
+		<li><img src="data1/images/contaminacinatomosfrica.jpg" alt="contaminación-atomosférica" title="contaminación-atomosférica" id="wows1_1"/></li>
+		<li><img src="data1/images/contaminacionporpetroleo.jpg" alt="contaminacion-por-petroleo" title="contaminacion-por-petroleo" id="wows1_2"/></li>
+		<li><img src="data1/images/electromagnetica.jpg" alt="electromagnetica" title="electromagnetica" id="wows1_3"/></li>
+		<li><img src="data1/images/hidrica.jpg" alt="Hidrica" title="Hidrica" id="wows1_4"/></li>
+		<li><img src="data1/images/luminica.jpg" alt="Luminica" title="Luminica" id="wows1_5"/></li>
+		<li><img src="data1/images/radioactiva.jpg" alt="Radioactiva" title="Radioactiva" id="wows1_6"/></li>
+		<li><img src="data1/images/termica.jpg" alt="Termica" title="Termica" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/visual.jpg" alt="http://wowslider.net/" title="Visual" id="wows1_8"/></a></li>
+		<li><img src="data1/images/alimentaria.jpg" alt="Alimentaria" title="Alimentaria" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Acustica"><span><img src="data1/tooltips/acustica.jpg" alt="Acustica"/>1</span></a>
+		<a href="#" title="contaminación-atomosférica"><span><img src="data1/tooltips/contaminacinatomosfrica.jpg" alt="contaminación-atomosférica"/>2</span></a>
+		<a href="#" title="contaminacion-por-petroleo"><span><img src="data1/tooltips/contaminacionporpetroleo.jpg" alt="contaminacion-por-petroleo"/>3</span></a>
+		<a href="#" title="electromagnetica"><span><img src="data1/tooltips/electromagnetica.jpg" alt="electromagnetica"/>4</span></a>
+		<a href="#" title="Hidrica"><span><img src="data1/tooltips/hidrica.jpg" alt="Hidrica"/>5</span></a>
+		<a href="#" title="Luminica"><span><img src="data1/tooltips/luminica.jpg" alt="Luminica"/>6</span></a>
+		<a href="#" title="Radioactiva"><span><img src="data1/tooltips/radioactiva.jpg" alt="Radioactiva"/>7</span></a>
+		<a href="#" title="Termica"><span><img src="data1/tooltips/termica.jpg" alt="Termica"/>8</span></a>
+		<a href="#" title="Visual"><span><img src="data1/tooltips/visual.jpg" alt="Visual"/>9</span></a>
+		<a href="#" title="Alimentaria"><span><img src="data1/tooltips/alimentaria.jpg" alt="Alimentaria"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/arbol.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Cuatro RMY</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Consecuencias</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Demostracion de las consecuencias de la contaminacion</h2>
+<h3>Consecuencias para los seres humanos</h3>
+<p>En países europeos, por ejemplo, cerca de 20.000 personas mueren cada año a causa de la contaminación ambiental. Esto se debe principalmente a la emisión de gases contaminantes tóxicos en el ambiente que causan irritación en los ojos y problemas en las vías respiratorias, además de fatigas, migradas y una serie de enfermedades cardiovasculares. ¿Cómo sucede esto? Pues bien, debido a la emisión, las partículas de humo y polvo que yacen en el aire, ingresan al cuerpo y se alojan en los pulmones, donde empiezan a producir daños graves.
+Los principales afectados son los ancianos, los niños y personas que tienen problemas respiratorios, aunque, es posible que las demás personas puedan resultar igualmente afectadas. En otros casos, personas que no tienen acceso a agua potable o cocinan con estufas de combustión de carbón o leña también podrían verse afectadas.</p>
+
+<h3>Consecuencias en el clima y el ambiente</h3>
+<p>La presencia de CO2 en la atmósfera provoca la emisión de concentraciones excesivas que aumentan las posibilidades de aparición del efecto invernadero. Además de las alteraciones que provoca en el clima con los fenómenos metereológicos, es también capaz de impedir la siembra en secciones del suelo donde residen agentes contaminados.
+
+En otros, la contaminación creada a partir de la deforestación, es uno de los principales causantes de la contaminación de los suelos.</p>
+
+<h3>Contaminación de la flora y la fauna</h3>
+<p>En el caso de las plantas, las consecuencias de la contaminación ambiental pueden reflejarse en el crecimiento y la imposibilidad de adaptación a las condiciones del ambiente, debido a los efectos negativos que produce la contaminación en el aire y el agua, agentes esenciales para sus procesos naturales. Este hecho ha permitido la desaparición de algunas plantas.
+
+En cuanto a la fauna, es decir, los animales, debido a las alteraciones que ha sufrido el ambiente a causa de la contaminación ambiental, muchos han perdido sus fuentes de alimentos, además de la poca agua natural que existe por la contaminación a este agente. Esta acción provocada por el hombre, principalmente, ha llevado a que muchas especies entren a la larga lista de animales que se encuentran en peligro de extinción. </p>
+<img src="imagenes/tortuga.jpg" width="50%" height="40%">
+<a href="http://www.nuevoaire.cl/web/2017/07/consecuencias-la-contaminacion-ambiental-principales-efectos/" target="_self">Checa esta pagina para mas informacion</a>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/arbol.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Cuatro RMY</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Reciclaje</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Regla de las 3R</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/Recicla.png">
+</div>
+</div>
+</div>
+<h2>Regla de las tres R</h2>
+<h3>Las tres erres (3R)</h3> 
+<p>Es una regla para cuidar el medio ambiente, específicamente para reducir el volumen de residuos o basura generada. En pocas palabras, las 3R te ayudan a tirar menos basura, ahorrar dinero y ser un consumidor más responsable, así reduciendo tu huella de carbono. Y lo mejor de todo es que es muy fácil de seguir, ya que sólo tiene tres pasos: reducir, reutilizar y reciclar.</p>
+<h3>Reducir</h3>
+<p>Cuando hablamos de reducir lo que estamos diciendo es que se debe tratar de reducir o simplificar el consumo de los productos directos, o sea, todo aquello que se compra y se consume, ya que esto tiene una relación directa con los desperdicios, a la vez que también la tiene con nuestro bolsillo. Por ejemplo, en vez de comprar 6 botellas pequeñas de una bebida, se puede conseguir una o dos grandes, teniendo el mismo producto pero menos envases sobre los que preocuparse. </p>
+<h3>reutilizar</h3>
+<p>Al decir reutilizar, nos estamos refiriendo a poder volver a utilizar las cosas y darles la mayor utilidad posible antes de que llegue la hora de deshacernos de ellas, dado que al disminuir el volumen de la basura.
+
+Esta tarea suele ser la que menos atención recibe y es una de las mas importantes, que también ayuda mucho la economía en casa.</p>
+<h3>Reciclar</h3>
+<p>La ultima de las tareas es la de reciclar, que consiste en el proceso de someter los materiales a un proceso en el cual se puedan volver a utilizar, reduciendo de forma verdaderamente significativa la utilización de nuevos materiales, y con ello, mas basura en un futuro.
+
+Las sociedades del mundo siempre han producido residuos, pero es ahora, en la sociedad de consumo, cuando el volumen de las basuras ha crecido de forma desorbitada. Además se ha incrementado su toxicidad hasta convertirse en un gravísimo problema. Estamos inmersos en la cultura del usar y tirar, y en la basura de cada día están los recursos que dentro de poco echaremos en falta. Cada ciudadano genera por término medio 1kg. de basura al día, lo que da 365 kg. por persona al año, y a su vez 40.150.000.000 kg. al año en México. Esta basura doméstica va a parar a vertederos, barrancas, a la calle y a veces a incineradoras. Buena parte de esa basura, el 60% del volumen, lo constituyen envases y embalajes, en su mayoría de un solo uso, normalmente fabricados a partir de materias primas no renovables, o que aun siendo renovables se están explotando a un ritmo superior al de su regeneración (p. Ej. La madera para la fabricación de celulosa), y difícilmente reciclables una vez se han utilizado.
+
+A lo anterior tenemos que añadir que en el hogar también se producen residuos derivados de pinturas, disolventes, insecticidas, productos de limpieza. Toda esta basura puede ser llevada a vertederos, pero ocupa mucho terreno y contamina suelos y aguas. Incinerarla tampoco es la solución, pues se emiten contaminantes atmosféricos y se producen cenizas y escorias muy tóxicas. Se trata, en definitiva, de que pongamos en práctica la consigna de las tres erres, Reducir, Reutilizar y Reciclar, en este orden de importancia.</p>
+<a href="http://www.responsabilidadsocial.mx/3r-la-regla-de-las-tres-erres-reducir-reciclar-y-reutilizar/" target="_self">Checa esta pagina para mas informacion</a>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/arbol.ico" width="46" height="46">
+</div>
+<h4>Aplicacion Cuatro RMY</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Medidas para combatirla</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> 5 Medidas que puedes emplear para combatir la contaminación en tu comunidad</h2>
+<h3>1° medida</h3>
+<p>Imprimir estrictamente lo necesario; No imprimir solo para leer unos cuantos renglones; en cuestión de autorizaciones se puede hacer vía mail.</p>
+<img src="imagenes/paso2.jpg" width="40%" height="50%">
+<h3>2° medida</h3>
+<p>Todo papel ó cartón que ya no pueda ser reutilizado deberá de tener un tratamiento de reciclaje.</p>
+<h3>3° medida</h3>
+<img src="imagenes/paso3.jpg" width="40%" height="50%">
+<p>Si se tiene el hábito de tomar agua durante el día, utilizar vasos de vidrio que puedan ser lavados.
+En caso de que se tengan botellas de agua, lavarlas y reusarlas lo más que se puede, en lugar de comprar una botella diaria con agua.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/paso4.jpg',1)"><img src="imagenes/paso1.jpg" width="40%" height="50%" id="Image9"></a>
+<h3>4° medida</h3>
+<p>Cuando vayas a la tienda y compres dos o tres productos que bien te puedes llevar con la mano, NO aceptes bolsas de plástico.</p>
+<img src="imagenes/abarrotes.jpg" width="50%" height="40%">
+<h3>5° medida</h3>
+<p>Caminar de ser necesario en vez de utilizar el automovil,o en su caso puede utilizar la bicicleta</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/caminando.jpg',1)"><img src="imagenes/carro.jpg" width="50%" height="40%" id="Image13"></a> </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/arbol.ico" width="46" height="46">
+</div>
+<h4> Aplicacion Cuatro RMY</h4>
+</div>
+</div>
+</body>
+</html>
+         
+
